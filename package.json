@@ -1,0 +1,18 @@
+{
+  "name": "navegador-de-odisseia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Navegador de Odisseia — barco em oceano infinito com objetos aleatórios. React + Three.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.156.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
